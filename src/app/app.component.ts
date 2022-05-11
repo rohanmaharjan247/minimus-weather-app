@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'minimus';
+
+  showMenu = false;
+  darkModeActive=false;
+
+  toggleMenu(){
+    this.showMenu = !this.showMenu;
+  }
+
+  modeToggleSwitch(){
+
+  }
 }
